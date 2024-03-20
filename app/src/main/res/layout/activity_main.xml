@@ -55,16 +55,126 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btnRandon"
+        <ImageButton
+            android:id="@+id/imgBtn4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Random"
-            android:onClick="random"/>
+            android:background="@color/white"
+            android:onClick="mirar"
+            android:padding="10sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/jmemoria" />
 
+        <ImageButton
+            android:id="@+id/imgBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:onClick="mirar"
+            android:padding="10sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/jmemoria" />
+
+        <ImageButton
+            android:id="@+id/imgBtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:onClick="mirar"
+            android:padding="10sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/jmemoria" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgBtn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:onClick="mirar"
+            android:padding="10sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/jmemoria" />
+
+        <ImageButton
+            android:id="@+id/imgBtn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:onClick="mirar"
+            android:padding="10sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/jmemoria" />
+
+        <ImageButton
+            android:id="@+id/imgBtn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:onClick="mirar"
+            android:padding="10sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/jmemoria" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgBtn10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:onClick="mirar"
+            android:padding="10sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/jmemoria" />
+
+        <ImageButton
+            android:id="@+id/imgBtn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:onClick="mirar"
+            android:padding="10sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/jmemoria" />
+
+        <ImageButton
+            android:id="@+id/imgBtn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:onClick="mirar"
+            android:padding="10sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/jmemoria" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRandon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar"
+        android:onClick="reiniciar"/>
+
 </LinearLayout>
